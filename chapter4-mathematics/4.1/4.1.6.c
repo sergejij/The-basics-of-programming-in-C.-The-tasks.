@@ -18,7 +18,7 @@
 
 int main() {
 	int number, result;
-	scanf("%d\n", &number);
+	scanf("%d", &number);
 
 	result = number % 2;
 	printf("%d\n", result);

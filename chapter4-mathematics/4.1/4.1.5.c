@@ -7,7 +7,7 @@ int main() {
   double rads, pi;
   pi = 3.1415926;
     
-  scanf("%d\n", &degrees);
+  scanf("%d", &degrees);
   rads = degrees * pi / 180;
   
   printf("%.2lf\n", rads);
